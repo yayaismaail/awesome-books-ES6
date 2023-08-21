@@ -24,12 +24,6 @@ class LibraryApp {
       return;
     }
 
-    // const currentDate = document.querySelector('.date');
-    // setInterval(() => {
-    //   const d = new Date();
-    //   currentDate.innerHTML = `${d.toDateString()} ${d.toLocaleTimeString()}`;
-    // }, 1000);
-
     const book = { book: bookTitle, author: authorName };
     this.libBooks.push(book);
     this.updateLocalStorage();
