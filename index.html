@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books ES6</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <section class="navbar-section">
+          <p class="logo">Awesome Books</p>
+          <nav class="navbar">
+            <ul class="desktop-menu">
+              <li class="nav-item"><a href="#" class="list nav-link">List</a></li>
+              <li class="nav-item"><a href="#" class="add-new nav-link">Add New</a></li>
+              <li class="nav-item"><a href="#" class="contact nav-link">Contact</a></li>
+            </ul>
+
+            <div class="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+          </nav>
+        </section>
+
+        <section id="date">
+            <p id="dateTime"></p>
+        </section>
+    </header>
+    
+    
+    
+    <section class="section1 d-none">
+        <div class="sec1">
+            <h1 class="title">Awesome books</h1>
+            <section class="book-list" id="list-books"></section>
+        </div>
+    </section>
+
+    <section class="section2 d-none">
+        <div class="sec2">
+            <h3 class="add-new-book">Add New Book</h3>
+            <form class="form" id="form">
+                <input type="text" id="book-title" placeholder="Enter book title" />
+                <input type="text" id="author-name" placeholder="Enter author" />
+                <button id="add-book" class="button">Add</button>
+            </form>
+            <p class="display-message"></p>
+        </div>
+    </section>
+    
+    <section class="section3 d-none">
+        <div class="sec3">
+            <h3 class="contact-title">Contact information</h3>
+            <p class="contact-message">
+                Do you have any questions or you want to say "Hello"? <br>
+                You can reach out to Me!
+            </p>
+            <ul class="detail-list">
+                <li class="detail-item">
+                    <p class="email">ismailhm@gmail.com</p>
+                </li>
+                <li class="detail-item">
+                    <p class="phone-no">Phone No.: +234 7051227729</p>
+                </li>
+                <li class="detail-item">
+                    <address class="address">Address:Kano, Nigeria</address>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div>
+            <p class="copyright">copyright &copy;Ismail</p>
+        </div>
+        <div>
+            <p class="footer-body"></p>
+        </div>
+    </footer>
+</body>
+</html>
